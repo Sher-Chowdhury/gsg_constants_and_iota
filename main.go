@@ -13,7 +13,7 @@ func main() {
 
 	fmt.Println(alpha, bravo, charlie)
 
-	// the iota reset to 0 back to
+	// the iota reset to 0 when moving to the next constang block
 	const (
 		delta   = iota
 		echono  = iota
