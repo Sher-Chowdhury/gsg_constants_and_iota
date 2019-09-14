@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
-// the 'iota' key word acts like a counter starting from
+/*
+The 'iota' key word acts like a counter starting from 0. Consequently
+the constants default to the integer data type.
+*/
 const (
 	alpha   = iota
 	bravo   = iota
@@ -20,4 +26,6 @@ func main() {
 
 	fmt.Println(alpha, bravo, charlie)
 	fmt.Println(delta, echono, foxtrot)
+	fmt.Println(reflect.TypeOf(bravo))
+
 }
