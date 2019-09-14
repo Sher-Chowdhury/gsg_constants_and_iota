@@ -1,3 +1,5 @@
+[iota](https://github.com/golang/go/wiki/Iota)
+
 ```bash
 go get github.com/Sher-Chowdhury/gsg_constants_and_iota
 go run github.com/Sher-Chowdhury/gsg_constants_and_iota
