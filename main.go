@@ -47,11 +47,11 @@ const (
 
 func main() {
 
-	fmt.Println(alpha, bravo, charlie)
-	fmt.Println(delta, echono, foxtrot)
-	fmt.Println(reflect.TypeOf(bravo))
+	fmt.Println(alpha, bravo, charlie)  // 0 1 2
+	fmt.Println(delta, echono, foxtrot) // 0 1 2
+	fmt.Println(reflect.TypeOf(bravo))  // int
 
-	fmt.Println(golf, hotel, india, juliet, kilo)
-	fmt.Println(lima, mike, november)
+	fmt.Println(golf, hotel, india, juliet, kilo) // 8 1 36 40 4
+	fmt.Println(lima, mike, november) // 8 9 10
 
 }
